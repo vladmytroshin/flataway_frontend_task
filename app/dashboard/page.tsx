@@ -2,6 +2,8 @@ import { DashboardGrid } from "@/components";
 import { apiService } from "@/services";
 import { ButtonConfig } from "@/lib/types";
 
+export const dynamic = "force-dynamic";
+
 export default async function DashboardPage() {
   const buttonConfigs: ButtonConfig[] = await apiService.getButtonConfigs();
 

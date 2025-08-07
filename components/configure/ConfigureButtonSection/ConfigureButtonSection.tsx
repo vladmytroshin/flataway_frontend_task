@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaArrowLeftLong } from "react-icons/fa6";
-import { ButtonConfig } from "@/lib/types";
 import { DEFAUL_COLOR } from "@/lib/сonstants";
 import { ConfigureButtonSectionProps } from "./types";
 import { useRouter } from "next/navigation";
